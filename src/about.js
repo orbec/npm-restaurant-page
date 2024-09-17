@@ -13,7 +13,7 @@ class About {
 }
 
 export default function loadPage(){
-    const restaurant = new Menu();
+    const restaurant = new About();
     const content = document.querySelector("#content");
     content.innerHTML = "";
     const abstract = document.createElement("p");
